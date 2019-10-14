@@ -1,0 +1,4 @@
+spring:
+  port: 10022
+  picture:
+    path: /root/picture
