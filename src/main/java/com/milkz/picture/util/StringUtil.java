@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 public class StringUtil {
 
     public boolean checkParam(String param) {
-        return param != null && !param.equals("");
+        return param == null || param.equals("");
     }
 
 }
